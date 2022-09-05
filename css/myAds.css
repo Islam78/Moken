@@ -1,0 +1,276 @@
+/* start nav */
+.navbar{background-color: white;}
+.navbar ul li {margin-left: 5px;}
+.navbar ul li button {color: #9A9A9A; font-family: 'Cairo', sans-serif;}
+.navbar ul li button:hover {color: #054070;}
+.navbar div img{width: 125px;}
+.navbar ul li .account
+{
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    margin-left: 25px;
+}
+.navbar ul li .account > svg{
+    margin-left: 7px;
+    margin-right: 80px;
+    margin-top: 0px;
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 23px;
+}
+.navbar ul li .signup-nav {background-color: #095696;color: white;}
+.navbar ul li .signup-nav:hover {background-color: #054070;color: white;}
+.navbar ul li .login-nav {background-color: #2684D1;color: white;}
+.navbar ul li .login-nav:hover {background-color: rgb(52, 143, 218);color: white;}
+.navbar ul li .active {color: #095696;}
+.navbar{
+    padding-left: 70px !important;
+    padding-right: 90px !important;
+    min-height: 80px;
+}
+/* start fav */
+.fav{ height: 500px; }
+.fav img{ width: 100%; height: 100%; }
+.fav .opacity{
+    background-color: #1c1c1c85;
+    height: 443px;
+    width: 100%;
+    position: absolute;
+    top: 56px;
+}
+.fav h4 {
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-size: 65px;
+    top: 30%;
+    left: 42%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.fav button {
+    position: absolute;
+    top: 348px;
+    color: white;
+    font-size: 19px;
+    left: 44%;
+    z-index: 1;
+    background: #095696;
+    border: none;
+}
+/* start content */
+.content{
+    overflow: hidden;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-right: 108px;
+    background-color: #fff;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;}
+.content .row  > div { margin-bottom: 30px; margin-right: 0; }
+.content .head hr {
+    max-width: 78%;
+    border-top: 2px solid rgba(0,0,0,.1);
+    position: relative;
+    top: 30px;
+    left: -2px;
+}
+.card-img, .card-img-top{ height: 185px !important; }
+.card > select {
+    color: #38333300;
+    opacity: .6;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    width: 30px !important;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background: #dedede8c;
+    border-radius: 50%;
+}
+.card > select option {
+    color: black;
+    width: 50px;
+    height: 20px;
+    background-color: white;
+}
+.card > svg {
+    color: black;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    width: 30px !important;
+    height: 30px;
+    padding-left: 6px;
+    padding-right: 7px;
+    background: #dedede8c;
+    border-radius: 50%;
+} 
+.content .head  a > svg
+{
+    overflow: visible;
+    float: left;
+    position: relative;
+    top: -48px;
+    width: 25px;
+    color: #aca7a7;
+    height: 25px;
+    margin-left: 11px;
+}
+.content .head  a:hover svg,.content #BackRow { color: #095696; }
+.content .head h3 {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 23px;
+    font-family: 'Cairo', sans-serif;
+}
+.contents { float: left; }
+.content  .margin{ margin-left: 50px; }
+.contents .detail {
+    margin: 0 7px 0 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #f3f3f352;
+    font-family: 'Cairo', sans-serif;
+}
+.contents .detail ul{ margin-left: 5px; direction: rtl; }
+.contents .detail ul li{
+    list-style: none;
+    float: right;
+    margin-right: -34px;
+    font-family: 'Cairo', sans-serif;
+}
+.contents .detail .tow  { left: 15px; position: relative; top: 10px; }
+.contents .detail ul li svg{ position: relative; left: 5px; color: rgb(179, 173, 173) }
+.contents .detail ul span svg{ margin-left: 2px; color: rgb(179, 173, 173) }
+.contents .detail ul span{ margin-right: -30px; float: left; font-family: 'Cairo', sans-serif; }
+.contents .detail .tow span{
+    margin-right: 11px;
+    float: right;
+    margin-top: -8px;
+    font-family: 'Cairo', sans-serif;
+}
+.contents .detail .tow li { position: relative; left: 6px; }
+.card-body h5 {
+    margin: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 0px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.card-body p { font-size: 13px; margin-bottom: 0; font-family: 'Cairo', sans-serif; }
+.card-body button
+{
+    width: 117%;
+    position: relative;
+    right: -20px;
+    bottom: -20px;
+    background: #095696;
+    border: none;
+    height: 50px;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.card-body button:hover { background-color: #2684D1; color: white; }
+
+/* start header */
+.header{
+    direction: rtl;
+    background-color: black;
+    color: #CCCCCC;
+    padding-top: 50px !important;
+    font-family: 'Cairo', sans-serif;
+}
+.header .logo img{max-width: 60px;}
+.header .logo span
+{
+    color: white;
+    font-size: 28px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+.header p{color: rgb(192, 190, 190);font-family: 'Cairo', sans-serif;}
+.header .contct li p { margin-top: 25px; float: right; font-family: 'Cairo', sans-serif;
+}
+.header h4 {
+    margin-right: 37px;
+    color: #fff;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li{ direction: rtl; list-style: none; margin-top: 21px; }
+.header ul li a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li a:hover{color: #095696;}
+.header .conect li { float: right; margin-left: 5px; list-style:none;}
+.header .conect li a svg {
+    color: #2684D1;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.header .copyRight{margin-bottom: -1px;padding-bottom: 35px;}
+.header > hr{border-top: 2px solid rgba(255, 255, 255, 0.31) !important; }
+.header .copyRight span{color: white;font-family: 'Cairo', sans-serif;}
+
+@media only screen and (max-width: 600px) {
+    .fav h4 {
+        position: absolute;
+        color: white;
+        font-size: 65px;
+        top: 70%;
+        left: 40%;
+        font-size: 40px;
+        opacity: 0.7;
+        z-index: 1;
+    }
+    .fav button { left: 40% }
+    .head hr { display: none; } 
+    .pagination > button {
+        margin-top: 55px;
+        margin-left: 13px;
+        margin-bottom: 20px;
+    }
+    .right-bar{ margin-top: 50px; }
+    .head hr { display: none; }    
+
+}
+@media only screen and (min-width:320px)and (max-width :444px){
+    .content {
+        padding-left: 0;
+        position: relative;
+        left: 10px;
+        position: relative;
+        left: -19px;    
+    }
+    .content .head > a { position: relative; left: 27px; }
+}
+@media only screen and (min-width:604px) and (max-width :1000px){
+    .content {
+        padding-left: 0;
+        position: relative;
+        left: 10px;
+        position: relative;
+        left: -19px;    
+    }
+    .content .head h3 { margin-right: -75px; }
+    .content .head hr{ left: 49px; }
+    .content .head > a { position: relative; left: 27px; }
+    .fav h4{ top: 57%;left: 32%;}
+    .fav button { left: 39%; }
+}
+@media only screen and (min-width:320px) and (max-width:1028px) {.content .head > a { display: none}}

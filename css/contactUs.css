@@ -1,0 +1,257 @@
+/* start nav */
+.navbar{background-color: white;}
+.navbar ul li {margin-left: 5px;}
+.navbar ul li button{color: rgb(145, 145, 145);     font-family: 'Cairo', sans-serif;}
+.navbar ul li .signup-nav {
+    background-color: #095696;
+    color: white;
+    height: 33px;
+    margin-top: 5px;
+    width: 135px;
+    padding-top: 0px;}
+.navbar ul li .signup-nav:hover {background-color: #054070;color: white;}
+.navbar ul li .login-nav {
+    background-color: #2684D1;
+    color: white;
+    height: 33px;
+    margin-right: 54px;
+    width: 135px;
+    margin-top: 5px;
+    padding-top: 0px;}
+.navbar ul li .login-nav:hover {background-color: rgb(52, 143, 218);color: white;}
+.navbar ul li .active {color: #095696;}
+.navbar div img{width: 125px;}
+.navbar{
+    padding-left: 70px !important;
+    padding-right: 90px !important;
+    min-height: 80px;
+}
+/* start fav */
+.fav{ height: 500px; }
+.fav img{ width: 100%; height: 100%; }
+.fav .opacity{
+    background-color: #1c1c1c85;
+    height: 443px;
+    width: 100%;
+    position: absolute;
+    top: 56px;
+    font-family: 'Cairo', sans-serif;
+
+}
+.fav h4 {
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-size: 65px;
+    top: 30%;
+    left: 42%;
+    opacity: 0.7;
+    font-family: 'Cairo', sans-serif;
+    z-index: 1;
+}
+
+/* start contact */
+.contact{ 
+    direction: rtl;
+    background-color: #f3f3f352;
+    padding-bottom: 100px;
+    font-family: 'Cairo', sans-serif;
+}
+.contact form {
+    width: 610px;
+    position: relative;
+    left: -210px;
+    margin-top: 60px;
+    font-family: 'Cairo', sans-serif;
+
+}
+.contact form input{
+    width: 239px;
+    height: 55px;
+    float: left;
+    font-family: 'Cairo', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    box-shadow: -1px 2px 10px -1px #0101013b;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.contact form #ForStyle {
+    margin-top: -35px;
+    width: 530px;
+    float: left;
+    margin-bottom: 38px; }
+.contact form textarea{
+    border: none;
+    border-radius: 0;
+    width: 535px;
+    left: 12px;
+    top: -15px;
+    position: relative;
+    box-shadow: -1px 2px 10px -1px #0101013b;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+.contact form svg
+{
+    overflow: visible;
+    position: relative;
+    background: #a1a1a12e;
+    color: #787878 !important;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.contact form #user{
+    left: 0px;
+    top: 10px;
+    height: 55px;
+    width: 32px;
+    padding: 10px;
+}
+.contact form #email{
+    left: -291px;
+    top: -48px;
+    height: 58px;
+    width: 32px;
+    padding: 8px;
+}
+.contact form #phone{
+    left: -1px;
+    top: -34px;
+    height: 55px;
+    width: 32px;
+    padding: 11px;
+}
+.contact form #calender{
+    left: 5px;
+    top: -287px;
+    height: 56px;
+    width: 32px;
+    padding: 10px;
+}
+.contact form #comment{
+    left: 579px;
+    top: -12px;
+    height: 251px;
+    width: 32px;
+    padding: 9px;
+    padding-bottom: 170px;
+}
+.contact form button
+{
+    position: absolute;
+    float: left;
+    left: 44px;
+    width: 145px;
+    height: 45px;
+    background: #095696;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.contact form button:hover { color: #fff; background-color: #2684D1; }
+/* start header */
+.header{
+    direction: rtl;
+    background-color: black;
+    color: #CCCCCC;
+    padding-top: 50px !important;
+    font-family: 'Cairo', sans-serif;
+}
+.header .logo img{max-width: 60px;}
+.header .logo span
+{
+    color: white;
+    font-size: 28px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+.header p{color: rgb(192, 190, 190);font-family: 'Cairo', sans-serif;}
+.header .contct li p {
+    margin-top: 25px;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header h4 {
+    margin-right: 37px;
+    color: #fff;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li{
+    direction: rtl;
+    list-style: none;
+    margin-top: 21px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li a:hover{color: #095696;}
+.header .conect li {
+    float: right;
+    margin-left: 5px;
+    list-style:none;
+}
+.header .conect li a svg {
+    color: #2684D1;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.header .copyRight{margin-bottom: -1px;padding-bottom: 35px;}
+.header > hr{border-top: 2px solid rgba(255, 255, 255, 0.31) !important; }
+.header .copyRight span{color: white;font-family: 'Cairo', sans-serif;}
+@media only screen and (max-width: 880px) {
+    .contact form #ForStyle { margin-top: 0px; margin-left: 371px; width: 240px; }
+    .contact{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }  
+    .contact form {
+        width: 610px;
+        position: relative;
+        left: 0;
+        margin-top: 60px;
+    }
+    .contact form svg { display: none }
+    .contact form input { float: initial; }
+    .contact form #ForStyle { margin-top: 0px; }
+    .contact form textarea{width: 244px; right: -182px; top: 3px; position: relative; }
+    .contact form button {
+        position: relative;
+        float: right;
+        left: 0;
+        top: 10px;
+    }
+    .fav h4 {
+        position: absolute;
+        color: white;
+        font-size: 65px;
+        top: 70%;
+        left: 30%;
+        font-size: 40px;
+        opacity: 0.7;
+        z-index: 1;
+    }
+}
+@media only screen and (min-width:889px) and (max-width: 1224px) {.fav h4{ top: 57%;left: 32%;}}

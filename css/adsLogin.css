@@ -1,0 +1,174 @@
+/* start nav */
+.navbar{background-color: white;}
+.navbar ul li {margin-left: 5px;}
+.navbar ul li button{color: rgb(145, 145, 145);     font-family: 'Cairo', sans-serif;}
+.navbar ul li .signup-nav {
+    background-color: #095696;
+    color: white;
+    height: 33px;
+    margin-top: 5px;
+    width: 135px;
+    padding-top: 0px;}
+.navbar ul li .signup-nav:hover {background-color: #054070;color: white;}
+.navbar ul li .login-nav {
+    background-color: #2684D1;
+    color: white;
+    height: 33px;
+    margin-right: 54px;
+    width: 135px;
+    margin-top: 5px;
+    padding-top: 0px;}
+.navbar ul li .login-nav:hover {background-color: rgb(52, 143, 218);color: white;}
+.navbar ul li .active {color: #095696;}
+.navbar div img{width: 125px;}
+.navbar{
+    padding-left: 70px !important;
+    padding-right: 90px !important;
+    min-height: 80px;
+}
+/* ads */
+.ads{ padding-bottom: 100px; font-family: 'Cairo', sans-serif; }
+
+.ads .carouselH .carousel ol > li { width: 188px !important; height: 74px !important; }
+.ads .carouselH ol li img { width: 180px !important; }
+.ads .deatil{ font-family: 'Cairo', sans-serif; width: 77%; }
+.ads .deatil .info {
+    color: #a7a7a7;
+    background-color: #cccccc52;
+    height: 28px;
+    width: 100%;
+    margin-left: 125px;
+    height: 50px;
+    font-family: 'Cairo', sans-serif;
+}
+.ads .deatil ul li {
+    list-style: none;
+    float: right;
+    padding-left: 102px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.ads .deatil .content{
+    margin-left: 124px;
+    margin-right: -126px;
+    margin-top: 10px;
+    font-family: 'Cairo', sans-serif; 
+}
+.ads .deatil .content svg {
+    overflow: visible;
+    float: left;
+    position: relative;
+    top: 6px;
+    width: 40px;
+    padding: 10px;
+    color: #ef2121;
+    background: #cccccc61;
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 11px;
+    opacity: .7;
+}
+.ads .deatil  .info > ul li svg { left: 7px; position: relative; }
+.ads .deatil .content svg:hover { color: red; }
+.ads .deatil .content .fullInfo{
+    direction: rtl;
+    display: block;
+    font-family: 'Cairo', sans-serif;
+    padding-top: 70px;
+}
+.ads .deatil .content .num span{
+    color: #095696;
+    font-family: 'Cairo', sans-serif;
+}
+.ads .deatil .content h3 {
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.content  #sale {
+    background-color: #095696;
+    color: #fff;
+    float: right 
+}
+.ads .deatil .content  button{
+    float: left;
+    background-color: #095696;
+    color: #fff;
+    width: 255px;
+    height: 50px;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+/* start header */
+.header{
+    direction: rtl;
+    background-color: black;
+    color: #CCCCCC;
+    padding-top: 50px !important;
+    font-family: 'Cairo', sans-serif;
+}
+.header .logo img{max-width: 60px;}
+.header .logo span
+{
+    color: white;
+    font-size: 28px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+.header p{color: rgb(192, 190, 190);font-family: 'Cairo', sans-serif;}
+.header .contct li p {
+    margin-top: 25px;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header h4 {
+    margin-right: 37px;
+    color: #fff;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li{
+    direction: rtl;
+    list-style: none;
+    margin-top: 21px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li a:hover{color: #095696;}
+.header .conect li { float: right; margin-left: 5px; list-style:none; }
+.header .conect li a svg {
+    color: #2684D1;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.header .copyRight{margin-bottom: -1px;padding-bottom: 35px;}
+.header > hr{border-top: 2px solid rgba(255, 255, 255, 0.31) !important; }
+.header .copyRight span{color: white;font-family: 'Cairo', sans-serif;}
+
+
+
+@media only screen and (max-width:1200px) {
+    .ads .deatil { width: 66%; margin-right: 109px; }
+    .ads .deatil .content button {float: right;width: 112px;height: 44px;margin-right: 8px;}
+    .ads .deatil .info { color: #a7a7a7; background-color: #cccccc52; width: 106%; margin-left: 125px; height: 163px; }
+    .ads .deatil  .info > ul { position: relative; width: 297px; left: -53px; }
+    .ads .deatil .content .fullInfo { direction: rtl; display: block; padding-top: 125px; }
+    .ads .carouselH ol li img {width: 66px !important;}
+    .ads .carouselH .carousel ol > li { width: 66px !important; height: 30px !important; } 
+    .carouselH { margin-top: 100px; }   
+} 
+@media only screen and (min-width:320px ) and (max-width:400px) {
+    .ads .deatil ul li {position: relative; left: -36px;}
+    .carouselH {width: 125%;    margin-left: -15px;}
+    .ads .deatil .content button { width: 100px; height: 64px; }    
+    .header .header, .header { width: 116%; }    
+}
+@media only screen and (min-width:320px) and (max-width:1028px) {.content .head > a { display: none}}

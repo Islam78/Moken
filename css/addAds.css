@@ -1,0 +1,164 @@
+/* start nav */
+.navbar{background-color: white;}
+.navbar ul li {margin-left: 5px;}
+.navbar ul li button{color: rgb(145, 145, 145);     font-family: 'Cairo', sans-serif;}
+.navbar ul li .signup-nav {
+    background-color: #095696;
+    color: white;
+    height: 33px;
+    margin-top: 5px;
+    width: 135px;
+    padding-top: 0px;}
+.navbar ul li .signup-nav:hover {background-color: #054070;color: white;}
+.navbar ul li .login-nav {
+    background-color: #2684D1;
+    color: white;
+    height: 33px;
+    margin-right: 54px;
+    width: 135px;
+    margin-top: 5px;
+    padding-top: 0px;}
+.navbar ul li .login-nav:hover {background-color: rgb(52, 143, 218);color: white;}
+.navbar ul li .active {color: #095696;}
+.navbar div img{width: 125px;}
+.navbar{
+    padding-left: 70px !important;
+    padding-right: 90px !important;
+    min-height: 80px;
+}
+.line hr { height: 2px; width: 100%;margin-top: 85px; }
+/* start addAds */
+.addAds {
+    padding-top: 90px;
+    padding-bottom: 80px;
+    direction: rtl;
+    width: 680px;
+    position: relative;
+    left: 53%;
+    font-family: 'Cairo', sans-serif;
+}
+.addAds h3{ float: right; color: #095696; font-family: 'Cairo', sans-serif;}
+.addAds h5{ float: right; display: block; }
+.addAds form{ display: block; margin-top: 10px; }
+.addAds form p{ position: absolute; font-family: 'Cairo', sans-serif; }
+.addAds form .custom-file {
+    height: 77px;
+    border: 1px solid #0000006e;
+    width: 77px;
+    position: absolute;
+    font-family: 'Cairo', sans-serif;
+    display: block;
+    float: right;
+    margin-top: 55px;
+}
+.addAds form .custom-file svg { margin-left: 8px; margin-top: -17px;}
+.addAds form svg {
+    position: relative;
+    top: -31px;
+    left: 10px;
+    color: #CCCCCC;
+}
+.addAds form svg:active{ color: #095696; }
+.addAds form h4 {
+    float: right; 
+    margin-top: 50px;
+    font-family: 'Cairo', sans-serif;
+}
+.addAds form input {
+    width: 312px;
+    font-family: 'Cairo', sans-serif;
+    float: right;
+    height: 51px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 1px solid #0000006e;
+}
+.addAds form .btn{
+    background-color: #095696;
+    float: right;
+    margin-top: 10px;
+    width: 130px;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+.addAds form select
+{
+    width: 310px;
+    font-family: 'Cairo', sans-serif;
+    height: 51px;
+    margin-bottom: 11px;
+    border-radius: 4px;
+    margin-left: 13px;
+    border: 1px solid #0000006e;
+    float: right;
+}
+.addAds form .btn > a {
+    font-size: 15px;
+    float: right;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.addAds form .forget-password{ float: right; }
+.addAds form .signup  { margin-top: 30px; }
+.addAds form .signup a { text-decoration: underline; font-family: 'Cairo', sans-serif; }
+/* start header */
+.header{
+    direction: rtl;
+    background-color: black;
+    color: #CCCCCC;
+    padding-top: 50px !important;
+    font-family: 'Cairo', sans-serif;
+}
+.header .logo img{max-width: 60px;}
+.header .logo span
+{
+    color: white;
+    font-size: 28px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+.header p{color: rgb(192, 190, 190);font-family: 'Cairo', sans-serif;}
+.header .contct li p {
+    margin-top: 25px;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header h4 {
+    margin-right: 37px;
+    color: #fff;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li{
+    direction: rtl;
+    list-style: none;
+    margin-top: 21px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li a:hover{color: #095696;}
+.header .conect li {
+    float: right;
+    margin-left: 5px;
+    list-style:none;
+}
+.header .conect li a svg {
+    color: #2684D1;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.header .copyRight{margin-bottom: -1px;padding-bottom: 35px;}
+.header > hr{border-top: 2px solid rgba(255, 255, 255, 0.31) !important; }
+.header .copyRight span{color: white;font-family: 'Cairo', sans-serif;}
+@media only screen and (max-width: 600px) {
+    .addAds { left: -289px; padding-left: 20px; }
+    .addAds textarea { max-width: 316px; }
+    .header .copyRight { width: 116% !important; }   
+    .header { width: 116% !important; }   
+}
+@media only screen and (min-width: 601px) and (max-width:1400px) { .addAds{left: 0; width: auto;} }
+@media only screen and (min-width:320px) and (max-width:1028px) {.content .head > a { display: none}}

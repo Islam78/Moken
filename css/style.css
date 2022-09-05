@@ -1,0 +1,389 @@
+
+/* start nav */
+.navbar{background-color: white;}
+.navbar ul li {margin-left: 5px;}
+.navbar ul li button{color: rgb(145, 145, 145);     font-family: 'Cairo', sans-serif;}
+.navbar ul li .signup {
+    background-color: #095696;
+    color: white;
+    height: 33px;
+    margin-top: 5px;
+    width: 135px;
+    padding-top: 0px;}
+.navbar ul li .signup:hover {background-color: #054070;color: white;}
+.navbar ul li .login {
+    background-color: #2684D1;
+    color: white;
+    height: 33px;
+    margin-right: 54px;
+    width: 135px;
+    margin-top: 5px;
+    padding-top: 0px;}
+.navbar ul li .login:hover {background-color: rgb(52, 143, 218);color: white;}
+.navbar ul li .active {color: #095696;}
+.navbar div img{width: 125px;}
+.navbar{
+    padding-left: 70px !important;
+    padding-right: 90px !important;
+    min-height: 80px;
+}
+
+/* start carousel */
+.carousel-item{ height: 600px; overflow: hidden; }
+.carousel img { width: 100%; height: 100% !important; }
+.carousel-item .opicity{
+    background-color: #000000a6;
+    opacity: .7;
+    position: relative;
+    top: -780px;
+    height: 780px;
+}
+.carousel-item .content{
+    position: absolute;
+    top: 33%;
+    color: white;
+    left: 30%;
+    background: none;
+    z-index: 1;
+    width: 100%;
+}
+.carousel-item  p {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    font-family: 'Cairo', sans-serif;
+    right: 455px;}
+.carousel-item .content form{ height: 200px; font-family: 'Cairo', sans-serif; }
+.carousel-item .content form button{
+    background: #095696;
+    width: 130px;
+    color: white;
+    border: none;
+    position: absolute;
+    border-radius: 0;
+    height: 40px;
+    border: none;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 7px 0px 0px 7px;
+    -webkit-border-radius: 7px 0px 0px 7px;
+    -moz-border-radius: 7px 0px 0px 7px;
+    -ms-border-radius: 7px 0px 0px 7px;
+    -o-border-radius: 7px 0px 0px 7px;
+}
+.carousel-item .content form button:hover{ background: #2684D1; color: white; }
+.carousel-item .content form  input {
+    width: 374px;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    position: absolute;
+    left: 200px;
+    border-radius: 0 7px 7px 0;
+    -webkit-border-radius: 0 7px 7px 0;
+    -moz-border-radius: 0 7px 7px 0;
+    -ms-border-radius: 0 7px 7px 0;
+    -o-border-radius: 0 7px 7px 0;
+}
+.carousel-item .content form button:hover{ background-color: #2684D1; }
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 6px !important;
+    font-family: 'Cairo', sans-serif;
+    height: 7px !important;
+    overflow: hidden;
+    background-color: #095696 !important;
+}
+/* start content */
+.content{
+    overflow: hidden;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-right: 39px;
+    background-color: #ccc;
+}
+.content .head hr {
+    max-width: 79%;
+    border-top: 2px solid rgba(0,0,0,.1);
+    position: relative;
+    top: 30px;
+    left: -26px;
+}
+.card-img, .card-img-top{ height: 185px !important; }
+.card > svg {
+    color: #504c4c8a;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    width: 30px !important;
+    height: 30px;
+    padding: 5px;
+    background: #dedede8c;
+    border-radius: 50%;
+}
+.card > svg:hover { color: red; opacity: .7; }
+.content .head  a > svg
+{
+    overflow: visible;
+    float: left;
+    position: relative;
+    top: -48px;
+    width: 25px;
+    color: #aca7a7;
+    height: 25px;
+    margin-left: 11px;
+}
+.content .head  a:hover svg,.content #BackRow { color: #095696; }
+.content .head h3 {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 23px;
+    font-family: 'Cairo', sans-serif;
+}
+.contents { float: right; font-family: 'Cairo', sans-serif; }
+.content  .margin{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.contents .detail {
+    margin: 0 7px 0 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #f3f3f352;
+}
+.contents .detail ul{ margin-right: 5px; color: rgb(110, 110, 110); }
+.contents .detail ul li{ list-style: none; float: right; }
+.contents .detail ul li svg{ margin-left: 7px; color: rgb(179, 173, 173) }
+.contents .detail ul span svg{ margin-left: 7px; color: rgb(179, 173, 173) }
+.contents .detail ul span{ margin-left: -30px; font-family: 'Cairo', sans-serif; float: left; }
+.contents .detail .tow span{ margin-left: 18px; float: left;}
+.card-body h5 {
+    margin: 2px;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    margin-right: 0px;
+}
+.card-body p {
+    font-size: 13px;
+    margin-bottom: 0;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+.card-body button
+{
+    width: 117%;
+    position: relative;
+    left: -20px;
+    bottom: -20px;
+    background: #095696;
+    border: none;
+    height: 50px;
+    color: white;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.card-body button:hover { background-color: #2684D1; color: white; }
+/* start right bar */
+.right-bar{
+    direction: rtl;
+    width: 85%;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+    font-family: 'Cairo', sans-serif;
+}
+.right-bar .form-inline .form-control
+{
+    border: 2px solid #ccc; 
+    width: 250px;
+    margin-right: 0px !important;
+}
+.right-bar p { margin-top: 20px; font-family: 'Cairo', sans-serif; }
+.right-bar select
+{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+    font-family: 'Cairo', sans-serif;
+}
+/* start navigation */
+.navigation {
+    overflow: hidden;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-right: 69px;
+    background-color: #ccc;
+}
+.navigation .num { float: right; font-family: 'Cairo', sans-serif; }
+.navigation  .num ul  { direction: rtl; }
+.navigation  .num ul  li a{
+    background-color: #CCCCCC;
+    color: white;
+    margin-left: 5px;
+    border: none;
+}
+.pagination .next {
+    background-color: #095696;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+.pagination .Previous{
+    background-color: #ccc;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+.num ul .active a{
+    background-color: #095696 !important;
+    border-radius: none;
+    margin-left: 6px !important;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/* start header */
+.header{
+    direction: rtl;
+    background-color: black;
+    color: #CCCCCC;
+    padding-top: 50px !important;
+    font-family: 'Cairo', sans-serif;
+}
+.header .logo img{max-width: 60px;}
+.header .logo span
+{
+    color: white;
+    font-size: 28px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+.header p{color: rgb(192, 190, 190);font-family: 'Cairo', sans-serif;}
+.header .contct li p {
+    margin-top: 25px;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header h4 {
+    margin-right: 37px;
+    color: #fff;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li{ direction: rtl; list-style: none; margin-top: 21px; }
+.header ul li a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li a:hover{color: #095696;}
+.header .conect li { float: right; margin-left: 5px; list-style:none; }
+.header .conect li a svg {
+    color: #2684D1;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.header .copyRight{margin-bottom: -1px;padding-bottom: 35px;}
+.header > hr{border-top: 2px solid rgba(255, 255, 255, 0.31) !important; }
+.header .copyRight span{color: white;font-family: 'Cairo', sans-serif;}
+@media (min-width: 780px) and (max-width: 1025px) {
+    .carousel-item .content {left: 15%;}
+    .carousel-item p {right: 238px; }    
+    .carousel-item .content form input {
+        width: 267px;
+        left: 75px;
+    }
+    .carousel-item .content form button {   
+        top: 158px !important;
+        left: 0 !important;
+    }
+    .carousel-item .content{    
+        left: 31%;
+    }
+    .carousel-item .content form button{top: 86px;}
+    .right-bar {width: 170%;margin-left: -106px;}
+    .content .head h3 {margin-right: -170px;}
+    .content .margin {
+        margin-right: 28px;
+    }
+  }
+  
+
+@media (min-width: 481px) and (max-width: 769px) {
+    .content {padding-left: inherit;}
+    .content > div {left: 66px;position: relative;}
+    .carousel-item .content{    
+        position: absolute;
+        top: 43%;
+        color: white;
+        left: 20%;
+        background: none;
+        z-index: 1;
+        width: auto;
+    }
+    .carousel-item p {margin-right: -30px;}
+    .carousel-item p { font-size: 15px; font-weight: bold; position: relative; right: 38px;}
+    .carousel-item form { width: 280px; position: relative; left: -30px; }
+    .content .head h3 {margin-right: 67px;}
+    .carousel-item form input { width: 151px !important; left: 131px !important; top: 89px; }
+    .carousel-item form .form-control{ display: inline !important; }
+    .navbar{ padding-left: 0px !important; padding-right: 10px !important; }
+    .pagination > button { margin-top: 55px; margin-left: 13px; margin-bottom: 20px; }
+    .right-bar{ margin-top: 50px; }
+    .head hr { display: none; }
+    .col-md-3{position: absolute !important;margin-bottom: -9px;}  
+    .col-md-9{margin-top: 930px;}
+}
+@media (min-width: 576px) and (max-width: 769px){
+    .content {padding-left: inherit;}
+    .content > div {position: relative;left: 66px;}
+    .content .head h3 {margin-right: 67px;}
+    .carousel-item .content form button {top: 86px;}
+    .carousel-item p {margin-right: -30px;}
+    .carousel-item .content {left: 34%;}
+    .col-md-9{margin-top: 930px;}
+    .col-md-3{position: absolute !important;margin-bottom: -9px;}
+    .content .margin {margin-right: 28px;}
+    .right-bar .form-inline .form-control {width: 99px !important}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .content {padding-left: inherit;}
+    .content > div {position: relative;left: 66px;}
+    .carousel-item p {margin-right: -30px;}
+    .content .head h3 {margin-right: 67px;}
+    .col-md-9{margin-top: 930px;}
+    .col-md-3{position: absolute !important;margin-bottom: -9px;}
+    .carousel-item .content {left: 0%;}
+    .carousel-item .content form button { width: 120px; top: 128px; border-radius: 7px 7px 7px 7px; left: 158px; }
+    .carousel-item .content form input {
+        width: 173px;
+        left: 158px;
+        border-radius: 7px 7px 7px 7px;
+        -webkit-border-radius: 7px 7px 7px 7px;
+        -moz-border-radius: 7px 7px 7px 7px;
+        -ms-border-radius: 7px 7px 7px 7px;
+        -o-border-radius: 7px 7px 7px 7px;
+        }
+    .carousel-item p { left: 20px;}    
+    .carousel-item .content form { position: relative; left: -15px;}
+    .content .head hr {
+        max-width: 17%;
+        border-top: 2px solid rgba(0,0,0,.1);
+        position: relative;
+        top: 30px;
+        left: -58px;
+    }
+  }
+@media (min-width: 1020px) and (max-width: 1400px){
+    .carousel-item p { margin-right: -338px; }
+
+}
+@media only screen and (min-width:320px) and (max-width:1028px) {.content .head > a { display: none}}

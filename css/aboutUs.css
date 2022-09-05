@@ -1,0 +1,148 @@
+/* start nav */
+.navbar{background-color: white;}
+.navbar ul li {margin-left: 5px;}
+.navbar ul li button {color: #9A9A9A; font-family: 'Cairo', sans-serif;}
+.navbar ul li button:hover {color: #054070;}
+.navbar div img{width: 125px;}
+.navbar ul li .account
+{
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    margin-left: 25px;
+}
+.navbar ul li .account > svg{
+    margin-left: 7px;
+    margin-right: 80px;
+    margin-top: 0px;
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 23px;
+}
+.navbar ul li .signup-nav {background-color: #095696;color: white;}
+.navbar ul li .signup-nav:hover {background-color: #054070;color: white;}
+.navbar ul li .login-nav {background-color: #2684D1;color: white;}
+.navbar ul li .login-nav:hover {background-color: rgb(52, 143, 218);color: white;}
+.navbar ul li .active {color: #095696;}
+.navbar{
+    padding-left: 70px !important;
+    padding-right: 90px !important;
+    min-height: 80px;
+}
+/* start fav */
+.fav{ height: 500px; }
+.fav img{ width: 100%; height: 100%; }
+.fav .opacity{
+    background-color: #1c1c1c85;
+    height: 443px;
+    width: 100%;
+    position: absolute;
+    top: 56px;
+}
+.fav h4 {
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 65px;
+    top: 30%;
+    left: 42%;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+/* start content */
+.content{
+    overflow: hidden;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-right: 39px;
+    background-color: #fff;
+    width: 96%;
+    font-family: 'Cairo', sans-serif;
+}
+.content .head hr {
+    max-width: 79%;
+    border-top: 2px solid rgba(0,0,0,.1);
+    position: relative;
+    top: 32px;
+    left: -73px;
+}
+.content p {
+    width: 70%;
+    direction: rtl;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* start header */
+.header{
+    direction: rtl;
+    background-color: black;
+    color: #CCCCCC;
+    padding-top: 50px !important;
+    font-family: 'Cairo', sans-serif;
+}
+.header .logo img{max-width: 60px;}
+.header .logo span
+{
+    color: white;
+    font-size: 28px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+.header p{color: rgb(192, 190, 190);font-family: 'Cairo', sans-serif;}
+.header .contct li p {
+    margin-top: 25px;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header h4 {
+    margin-right: 37px;
+    color: #fff;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li{
+    direction: rtl;
+    list-style: none;
+    margin-top: 21px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-family: 'Cairo', sans-serif;
+}
+.header ul li a:hover{color: #095696;}
+.header .conect li {
+    float: right;
+    margin-left: 5px;
+    list-style:none;
+}
+.header .conect li a svg {
+    color: #2684D1;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.header .copyRight{margin-bottom: -1px;padding-bottom: 35px;}
+.header > hr{border-top: 2px solid rgba(255, 255, 255, 0.31) !important; }
+.header .copyRight span{color: white;font-family: 'Cairo', sans-serif;}
+@media only screen and (max-width: 1000px) {
+    .fav h4 {
+        position: absolute;
+        color: white;
+        font-size: 43px;
+        top: 63%;
+        left: 42%;
+        opacity: 0.7;
+        z-index: 1;
+    }
+    .content { margin-left: auto; margin-right: auto; }
+    .head h3 { margin-top: 70px; margin-bottom: -30px; } 
+    .content .head hr { display: none; }
+}
